@@ -1,0 +1,84 @@
+.taglist {
+  background-color: rgb(255, 102, 0);
+  display: inline;
+}
+.uloldl {
+  width: 20rem;
+}
+
+.ol,
+.ul,
+.dl {
+  width: 12rem;
+}
+
+.ol2,
+.ul2 {
+  width: 12rem;
+}
+
+/* hyperlink */
+.hyperlink {
+  background-color: rgb(255, 102, 0);
+  display: inline;
+}
+
+.link1,
+.link2,
+.link3 {
+  width: 15rem;
+}
+
+/* image */
+.image {
+  background-color: rgb(255, 102, 0);
+  display: inline;
+}
+
+.img {
+  width: 10rem;
+}
+
+.img1 {
+  width: 15rem;
+}
+
+.img2 {
+  width: 15rem;
+}
+
+/* tabel */
+.table {
+  background-color: rgb(255, 102, 0);
+  display: inline-block;
+}
+.tabel1 {
+  width: 15rem;
+}
+
+.tabel2 {
+  width: 15rem;
+}
+
+.tabel3 {
+  width: 15rem;
+}
+.tabel4,
+.tabel5,
+.kompleks,
+.kompleks1 {
+  width: 18rem;
+}
+
+/* form */
+.forms {
+  background-color: rgb(255, 102, 0);
+  display: inline;
+}
+.form {
+  width: 15rem;
+}
+.forminput,
+.formselect {
+  width: 18rem;
+}

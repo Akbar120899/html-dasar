@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>belajar</title>
+  </head>
+  <body>
+    <a href="../tabel/tabel.html">table</a>
+    <h1>belajar dasar html</h1>
+    <p>kehalaman lain</p>
+    <ul>
+      <li><a href="#hyperlink">hyperlink</a></li>
+      <li><a href="#image">image</a></li>
+      <li><a href="#table">tabel</a></li>
+      <li><a href="#form">form</a></li>
+    </ul>
+
+    <hr />
+    <h1 class="taglist">#tag list</h1>
+    <p>
+      untuk membuat list pada html terdapat 3 tag tiap tag fungsinya berbeda
+    </p>
+    <img src="image/ul ol dl.jpg" alt="uloldl" class="uloldl" />
+    <!-- tag ol -->
+    <h1>tag ol</h1>
+    <ul type="circle">
+      <li>
+        pertama ada tag ol untuk membuat list terurut yang di dalamnya terdapat
+        tag li
+      </li>
+      <img src="image/ol.jpg" alt="ol" class="ol" />
+      <li>
+        untuk mengubah urutannya menjadi a, A, 1, I dapat menambahkan
+        elemen:type
+      </li>
+      <img src="image/ol2.jpg" alt="ol2" class="ol2" />
+    </ul>
+
+    <h3>contoh</h3>
+    <p>tag=ol untuk membuat list terurut menggunakan tag=li</p>
+    <ol>
+      <li>bangun pagi</li>
+      <li>sarapan</li>
+      <li>tidur pagi</li>
+    </ol>
+    <p>type=A</p>
+    <ol type="A">
+      <li>bangun pagi</li>
+      <li>sarapan</li>
+      <li>tidur pagi</li>
+    </ol>
+    <p>.type=I</p>
+    <ol type="I">
+      <li>bangun pagi</li>
+      <li>sarapan</li>
+      <li>tidur pagi</li>
+    </ol>
+    <hr />
+    <!-- tag ul -->
+    <h1>tag ul</h1>
+    <ul type="circle">
+      <li>
+        kedua ada tag ul untuk membuat list tak terurut yang di dalamnya
+        terdapat tag li
+      </li>
+      <img src="image/ul.jpg" alt="ul" class="ul" />
+      <li>
+        untuk mengubah penandah seperti lingaran tebal, kotak atau garis dapat
+        menambahkan elemen:type
+      </li>
+      <img src="image/ul2.jpg" alt="ul2" class="ul2" />
+    </ul>
+    <h3>contoh</h3>
+    <p>tag=ul untuk membuat list tak terurut menggunakan tag=li</p>
+    <p>type=disc</p>
+    <ul type="disc">
+      <li>nasi goreng</li>
+      <li>mie goreng</li>
+      <li>telur dadar</li>
+    </ul>
+    <p>type=square</p>
+    <ul type="square">
+      <li>nasi goreng</li>
+      <li>mie goreng</li>
+      <li>telur dadar</li>
+    </ul>
+    <p>type=circle</p>
+    <ul type="circle">
+      <li>nasi goreng</li>
+      <li>mie goreng</li>
+      <li>telur dadar</li>
+    </ul>
+    <hr />
+    <!-- tag dl -->
+    <h1>tag dl</h1>
+
+    <ul type="circle">
+      <li>
+        ketiga ada tag dl untuk membuat terminologi atau diskripsi isinya
+        berpasangan dt dan dd yang di dalamnya bisa terdapat tag li atau tidak
+        jika tidak dibutuhkan
+      </li>
+      <img src="image/dl.jpg" alt="ul" class="dl" />
+      <li>
+        untuk mengubah penandah seperti lingaran tebal, kotak atau garis dapat
+        menambahkan elemen:type
+      </li>
+    </ul>
+    <h3>contoh</h3>
+    <p>
+      tag=dal untuk membuat list berpasangan di dalamnya terdapt tag=dt harus
+      berpasnagan tag=dd
+    </p>
+    <dl>
+      <dt>ket</dt>
+      <dd>Lorem ipsum dolor sit.</dd>
+      <dt>menu</dt>
+      <dd>Lorem ipsum dolor sit amet.</dd>
+    </dl>
+    <hr />
+    <!-- contoh penggunaan tag=dl -->
+    <h3>contoh ol dan ul di dalam dl</h3>
+    <dl>
+      <dt>type=1</dt>
+      <dd>
+        <ol type="1">
+          <li>bangun pagi</li>
+          <li>sarapan</li>
+          <li>tidur pagi</li>
+        </ol>
+      </dd>
+    </dl>
+    <dl>
+      <dt>type=A</dt>
+      <dd>
+        <ol type="A">
+          <li>bangun pagi</li>
+          <li>sarapan</li>
+          <li>tidur pagi</li>
+        </ol>
+      </dd>
+    </dl>
+    <dl>
+      <dt>type=I</dt>
+      <dd>
+        <ol type="I">
+          <li>bangun pagi</li>
+          <li>sarapan</li>
+          <li>tidur pagi</li>
+        </ol>
+      </dd>
+    </dl>
+    <hr />
+    <!-- belajar hyper link dasar -->
+    <h1 class="hyperlink" id="hyperlink">#tag hyperlink</h1>
+
+    <ul>
+      <li>
+        untuk membuat link harus di buka dengan tag= a. di dalama tag= a
+        terdapat elemen=href, value=untuk mengisi alamat yg dituju
+      </li>
+      <img src="image/link1.jpg" alt="link1" class="link1" />
+      <li>
+        untuk membuka tab baru di browser ketika di klik harus menggunakan
+        elemen=target, value=_blank.
+      </li>
+      <img src="image/link2.jpg" alt="link2" class="link2" />
+      <li>
+        untuk mengarah langsung ke halaman tertentu yang terdapat di dalam link
+        kita harus menambahkan #kemudian sesuaikan id target yang dituju
+      </li>
+      <img src="image/link3.jpg" alt="link3" class="link3" />
+    </ul>
+
+    <!-- belajar image -->
+    <h1 class="image" id="image">#tag image</h1>
+    <!-- penjelasan penggunaan img -->
+    <p>
+      untuk memasukkan gambar harus menggunakan tag=img di dalam tag=img
+      terdapat beberapa elemen dan value
+    </p>
+    <img src="image/img.jpg" alt="img" class="img" />
+    <dl>
+      <dt>img</dt>
+      <dd>
+        <li>src=nama gambar/url gambar</li>
+        <li>alt=nama gambar/keterangan mengenai gambar ketika gambar rusak</li>
+        <li>title=memberikan judul pada gambar</li>
+        <img src="image/img1.jpg" alt="img1" class="img1" />
+        <li>width, height=membuat ukuran gambar</li>
+        <img src="image/img2.jpg" alt="img2" class="img2" />
+      </dd>
+    </dl>
+    <img
+      src="image/gambar2.jpg"
+      alt="specialty coffe"
+      width="200"
+      title="specialty coffe"
+    />
+
+    <!-- membuat hyperlink menggunakan gambar -->
+    <h2>membuat hyperlink menggunakan gambar</h2>
+    <p>kita harus membungkus tag=img menggunakan tak=a untuk membuat link</p>
+    <h5>seperti gambar di bawah jika di klik menuju ke halaman lain</h5>
+    <a href="#">
+      <img src="image/gambar2.jpg" alt="dasar" width="10%" />
+    </a>
+    <br />
+
+    <!-- belajar tabel -->
+    <h1 class="table" id="table">#tag tabel</h1>
+
+    <p>tabel adalah sebuh kotak yang bersusunan antara baris dan kolom</p>
+    <dl>
+      <dt>baris adalah:</dt>
+      <dd>kotak yang horizontal/memanjang dari kanan ke kiri</dd>
+      <dt>kolom adalah:</dt>
+      <dd>kotak yang vertikal/memanjang dari atas ke bawah</dd>
+    </dl>
+    <p>perptongan baris dan kolom disebut dengan cell/ data</p>
+    <h2>tabel</h2>
+    <p>
+      cara membuat tabel harus menggunaka tag=tabel kemudian di dalamnya membuka
+      tag=tr dan tag=td
+    </p>
+    <img src="image/tabel.jpg" alt="tabel1" class="tabel1" />
+    <dl>
+      <dt>tag=tr adalah</dt>
+      <dd>untuk membuat baris</dd>
+      <dt>tag=td adalah</dt>
+      <dd>untukmembuat kolom</dd>
+      <img src="image/tabel2.jpg" alt="tabel2" class="tabel2" />
+    </dl>
+    <dl>
+      <dt>atribut-atribut/ elemen yang dapat digunakan di dalam tabel</dt>
+      <dd>
+        <li>
+          border
+          <dd><li type="circle">elemen=border</li></dd>
+          <dd>
+            <li type="circle">value=angka untuk menampilkan ukuran garis</li>
+          </dd>
+        </li>
+        <li>
+          cellspacing
+          <dd><li type="circle">elemen=cellspacing</li></dd>
+          <dd>
+            <li type="circle">value=angka untuk menambah jarak antara cell</li>
+          </dd>
+        </li>
+        <li>
+          cellpadding
+          <dd><li type="circle">elemen=cellpadding</li></dd>
+          <dd>
+            <li type="circle">value=angka untuk memberi luas antara cell</li>
+          </dd>
+        </li>
+        <img src="image/tabel4.jpg" alt="tabel4" class="tabel4" />
+
+        <li>
+          colspand
+          <dd><li type="circle">elemen=colspan</li></dd>
+          <dd><li type="circle">value=angka untuk menggabungkan baris</li></dd>
+        </li>
+        <li>
+          rowspan
+          <dd><li type="circle">elemen=rowspan</li></dd>
+          <dd><li type="circle">value=angka untuk menggabungkan kolom</li></dd>
+        </li>
+        <img src="image/tabel3.jpg" alt="tabel3" class="tabel3" />
+        <img src="image/tabel5.jpg" alt="tabel5" class="tabel5" />
+      </dd>
+    </dl>
+
+    <!-- contoh tabel siple-->
+    <h2>contoh tabel simple</h2>
+    <p>
+      hanya menggunakan elemen border,cellspacing dan cellpadding yang
+      sebenarnya tugas css
+    </p>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <td>baris1, kolom1</td>
+        <td>baris1, kolom2</td>
+        <td>baris1, kolom3</td>
+        <td>baris1, kolom4</td>
+        <td>baris1, kolom5</td>
+      </tr>
+      <tr>
+        <td>baris1, kolom1</td>
+        <td>baris1, kolom2</td>
+        <td>baris1, kolom3</td>
+        <td>baris1, kolom4</td>
+        <td>baris1, kolom5</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <h2>menambahkan elem colspan dan rowspan</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <td>baris1, kolom1</td>
+        <td>baris1, kolom2</td>
+        <td>baris1, kolom3</td>
+        <td>baris1, kolom4</td>
+        <td>baris1, kolom5</td>
+        <td>baris1, kolom6</td>
+      </tr>
+      <tr>
+        <td>baris2, kolom1</td>
+        <td>baris2, kolom2</td>
+        <td>baris2, kolom3</td>
+        <td>baris2, kolom4</td>
+        <td>baris2, kolom5</td>
+        <td>baris2, kolom6</td>
+      </tr>
+      <tr>
+        <td>baris3, kolom1</td>
+        <td>baris3, kolom2</td>
+        <td colspan="2" rowspan="2">akbar</td>
+
+        <td>baris3, kolom5</td>
+        <td>baris3, kolom6</td>
+      </tr>
+      <tr>
+        <td>baris4, kolom1</td>
+        <td>baris4, kolom2</td>
+
+        <td>baris4, kolom5</td>
+        <td>baris4, kolom6</td>
+      </tr>
+      <tr>
+        <td>baris5, kolom1</td>
+        <td>baris5, kolom2</td>
+        <td>baris5, kolom3</td>
+        <td>baris5, kolom4</td>
+        <td>baris5, kolom5</td>
+        <td>baris5, kolom6</td>
+      </tr>
+      <tr>
+        <td>baris6, kolom1</td>
+        <td>baris6, kolom2</td>
+        <td>baris6, kolom3</td>
+        <td>baris6, kolom4</td>
+        <td>baris6, kolom5</td>
+        <td>baris6, kolom6</td>
+      </tr>
+    </table>
+
+    <!-- contoh tabel komplex -->
+    <h2>contoh table kompleks</h2>
+    <img src="image/tabelkompleks.jpg" alt="kompleks" class="kompleks" />
+    <img src="image/tabelkompleks1.jpg" alt="kompleks1" class="kompleks1" />
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <th>kolom1, bari1</th>
+        <th>kolom1, bari2</th>
+        <th>kolom1, bari3</th>
+        <th>kolom1, bari4</th>
+      </tr>
+      <tr>
+        <th>kolom2, bari1</th>
+        <td>kolom2, bari2</td>
+        <td>kolom2, bari3</td>
+        <td>kolom2, bari4</td>
+      </tr>
+      <tr>
+        <th>kolom3, bari1</th>
+        <td>kolom3, bari2</td>
+        <td>kolom3, bari3</td>
+        <td>kolom3, bari4</td>
+      </tr>
+      <tr>
+        <th>kolom4, bari1</th>
+        <td>kolom4, bari2</td>
+        <td>kolom4, bari3</td>
+        <td>kolom4, bari4</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <!-- tag form -->
+    <h1 id="form" class="forms">#tag form</h1>
+
+    <!-- belajar form -->
+    <p>
+      form adalah sebuah tag pada html yang digunakan untuk mengelolah data dari
+      input yang dilakukan oleh user baik itu saat user mengisih data pada kolom
+      atau memilih sesuatu pada komboboks seperti ceklis
+    </p>
+    <h2>cara membuat form</h2>
+    <p>
+      yang pertama kita membutuhkan tag=form, sebelum kita membuat elemen atau
+      tag lainnya kita bungkus dulu nmenggunakan tag=form. ini di lakukan untuk
+      mengetahui bahwa satu kumpulan adalah bagian dari satu form
+    </p>
+    <img src="image/form.jpg" alt="form" class="form" />
+    <p>
+      beberapa tag yang terdapat di dalam form yang dapat atau sering di gunakan
+    </p>
+    <dl>
+      <dt><li>input</li></dt>
+      <dd>
+        <li type="circle">
+          untuk membuat teksfilt, radiobutton, komboboks dan lain-lain
+        </li>
+      </dd>
+      <dd>
+        <li type="circle">input dimana user bisa menginputkan sesuatu</li>
+      </dd>
+      <dt><li>textarea</li></dt>
+      <dd>
+        <li type="circle">
+          mirip seperti textfilt tapi lebih banyak yang bisa kita isikan seperti
+          komentar pesan dll
+        </li>
+      </dd>
+      <dt><li>select</li></dt>
+      <dd>
+        <li type="circle">digunakan untuk membuat dropdown atau komboboks</li>
+      </dd>
+      <dt><li>button</li></dt>
+      <dd>
+        <li type="circle">
+          sebuah tombol yang di gunakan untuk mengirimkan datanya
+        </li>
+      </dd>
+      <dt><li>label</li></dt>
+      <dd><li type="circle">untuk menandai sebuah elemen input</li></dd>
+    </dl>
+    <ol type="A">
+      <li><h2>input</h2></li>
+    </ol>
+    <p>beberapa elemen yang terdapat di dalam imput</p>
+    <dl>
+      <dt><li>elemen: type = ...</li></dt>
+      <dd><li type="circle">value=text</li></dd>
+      <dd><li type="circle">value=password</li></dd>
+      <dd><li type="circle">value=radiobutton</li></dd>
+      <dd><li type="circle">value=checkbox</li></dd>
+    </dl>
+    <img src="image/forminput.jpg" alt="forminput" class="forminput" />
+    <h3>conto tag input di dalam form</h3>
+    <ol type="a">
+      <li>
+        tag=input di dalam form biasanya dibuatkan tag=label di atasnya untuk
+        memberitahu html bahwa saya akan membuat label
+      </li>
+      <p>
+        tag=label di dalamnya terdapat elemen dan value yaitu elemen= for yang
+        valuenya harus sama dengan value id yang terdapat di tag=input agar
+        terhubung satu sama lain. ini di lakukan ketika menambahkan keterangan
+        atau nama
+      </p>
+      <p></p>
+    </ol>
+    <!-- type txt -->
+    <ul>
+      <li><h4>type = text</h4></li>
+    </ul>
+    <form action="">
+      <label for="username">usernamer : </label>
+      <input type="text" id="username" />
+      <ul>
+        <li><h4>type = password</h4></li>
+      </ul>
+      <label for="password">password : </label>
+      <input type="password" id="password" />
+
+      <ul>
+        <li><h4>type = radiobuttoon</h4></li>
+      </ul>
+      <p>
+        radiobutton ini harus di tambahkan elemen dan value lagi ketika lebih
+        dari satu dan ingin memilih salah satunya .elemennya yaitu =name dan isi
+        value nya harus sama jika lebih dari satu
+      </p>
+      <label for="pria">pria</label>
+      <input type="radio" id="pria" name="jeniskelamin" />
+      <label for="wanita">wanita</label>
+      <input type="radio" id="wanita" name="jeniskelamin" />
+      <ul>
+        <li><h4>type = checkbox</h4></li>
+      </ul>
+      <p>
+        chackbox hampir mirip dengan radiobutton chackbox dapat memilih beberapa
+        pilihan tidak seperti radiobutton harus memilih salah satunya
+      </p>
+      <label for="nasigoreng">nasi goreng</label>
+      <input type="checkbox" id="nasigoreng" />
+      <label for="mieayam">mie ayam</label>
+      <input type="checkbox" id="mieayam" />
+      <label for="jusjeruk">jus jeruk</label>
+      <input type="checkbox" id="jusjeruk" />
+      <label for="tehpanas">teh panas</label>
+      <input type="checkbox" id="tehpanas" />
+      <ul>
+        <h3>untuk membuat tombol</h3>
+        <li><h4>type = submit,button dan riset</h4></li>
+      </ul>
+      <p>
+        untuk membuat tombol pada imput untuk mengirim datanya dapat menggunaka
+        submit,riset dan button tpi ini tidak terlalu di sarankan
+      </p>
+      <p>
+        jika ingin mengganti tulisan pada submit kita dapat memberikan
+        elemen:value=nama yang di inginkan...
+      </p>
+      <input type="submit" value="kirim" />
+      <input type="reset" />
+      <input type="button" value="kirim" />
+      <p>tag yang di sarankan ketika mau membuat tombol yaitu tag=button</p>
+      <button>kirim</button>
+    </form>
+    <!-- textarea -->
+    <ol type="A">
+      <li><h2>textarea</h2></li>
+    </ol>
+    <p>
+      textarea untuk membuat tempat penulisan yang panjang buat user seperti
+      menulis komentar atau pesan dengan cara membuat tag=textarea di dalam
+      tag=form
+    </p>
+    <form action="">
+      <label for="pesan">pesan</label>
+      <textarea name="" id="pesan" cols="30" rows="10">selamat siang</textarea>
+    </form>
+    <!-- select -->
+    <ol type="A">
+      <li><h2>select</h2></li>
+    </ol>
+    <p>
+      select untuk membuat pilihan yang sudah di sediakan untuk user yang
+      perjejeran ke bawang sperti membuka jendela baru dan di dalamnya terdapat
+      banyak pilihan
+    </p>
+    <p>
+      untuk membuat nya kita harus membuta tag=select di dalam tag=form,
+      kemudian di dalam tag select terdapat lagi tag=option
+    </p>
+    <img src="image/formselect.jpg" alt="formselect" class="formselect" />
+    <form action="">
+      <select name="kota" id="">
+        <option value="">makassar</option>
+        <option value="">jakarta</option>
+        <option value="">bandung</option>
+        <option value="">bali</option>
+      </select>
+    </form>
+
+    <!-- contoh lengkap tag form -->
+    <h1>contoh lengkap tag=form</h1>
+    <form action="">
+      <label for="username">username : </label>
+      <input type="text" id="username" />
+      <br /><br />
+      <label for="password">password : </label>
+      <input type="password" id="password" />
+      <br />
+      <label for="pria">pria : </label>
+      <input type="radio" id="pria" name="jeniskelamin" />
+      <label for="wanita">wanita : </label>
+      <input type="radio" id="wanita" name="jeniskelamin" />
+      <br />
+      <label for="nasigoreng">nasi goreng</label>
+      <input type="checkbox" id="nasigoreng" />
+      <label for="nasiayam">nasi ayam</label>
+      <input type="checkbox" id="nasiayam" />
+      <label for="tehhangat">teh hangat </label>
+      <input type="checkbox" id="tehhangat" />
+      <label for="tehdingin">teh dingin</label>
+      <input type="checkbox" id="tehdingin" />
+      <br /><br />
+      <select name="" id="">
+        <option value="">makassar</option>
+        <option value="">jakarta</option>
+        <option value="">bandung</option>
+        <option value="">bali</option>
+        <option value="">kalimantan</option>
+      </select>
+      <br /><br />
+      <label for="pesan1">pesan</label>
+      <textarea name="" id="pesan1" cols="24" rows="4"></textarea>
+      <br /><br />
+      <input type="submit" value="kirim" />
+    </form>
+    <!-- form di dalam tebel -->
+    <h2>form di dalam tabel agar rapi karna belum menggunakan css</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <td><label for="username1">username : </label></td>
+        <td colspan="2"><input type="text" id="username1" /></td>
+      </tr>
+      <tr>
+        <td><label for="password1">password : </label></td>
+        <td colspan="2"><input type="text" id="password1" /></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="pria1">peria</label>
+          <input type="radio" id="pria1" name="jeniskelamin" />
+          <label for="wanita1">wanita</label>
+          <input type="radio" id="wanita1" name="jeniskelamin" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="nasigoreng1">nasi goreng</label>
+          <input type="checkbox" id="nasigoreng1" />
+          <label for="nasiayam1">nasi ayam</label>
+          <input type="checkbox" id="nasiayam1" />
+          <label for="tehhangat1">teh hangat </label>
+          <input type="checkbox" id="tehhangat1" />
+          <label for="tehdingin1">teh dingin</label>
+          <input type="checkbox" id="tehdingin1" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <select name="" id="">
+            <option value="">makassar</option>
+            <option value="">jakarta</option>
+            <option value="">bandung</option>
+            <option value="">bali</option>
+            <option value="">kalimantan</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="pesan2">pesan</label>
+        </td>
+        <td colspan="2">
+          <textarea name="" id="pesan2" cols="21" rows="3"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><button>kirim</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

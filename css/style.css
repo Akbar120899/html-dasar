@@ -1,84 +1,393 @@
-.taglist {
-  background-color: rgb(255, 102, 0);
-  display: inline;
-}
-.uloldl {
-  width: 20rem;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.ol,
-.ul,
-.dl {
-  width: 12rem;
+body {
+  background-color: rgb(116, 92, 26);
+  color: #eaeaea;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.ol2,
-.ul2 {
-  width: 12rem;
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7%;
+  background-color: rgba(231, 154, 10, 0.7);
+  border-bottom: 3px solid rgb(255, 188, 62, 0.7);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 7rem;
 }
 
-/* hyperlink */
+.halaman {
+  box-sizing: border-box;
+}
+.halaman li {
+  padding-bottom: 0.5rem;
+}
+
+.halaman li a {
+  color: #eaeaea;
+  padding: 2px 3px;
+  text-decoration: none;
+}
+
+.halaman li a:hover {
+  background-color: #eaeaea;
+  color: rgb(31, 27, 27);
+}
+
+.judul {
+  font-size: 1.7rem;
+  font-variant: small-caps;
+}
+
+.bagian li {
+  padding-bottom: 0.5rem;
+}
+
+.bagian li a {
+  color: #eaeaea;
+  padding: 2px 3px;
+  text-decoration: none;
+}
+
+.bagian li a:hover {
+  background-color: #eaeaea;
+  color: rgb(31, 27, 27);
+}
+
+.garis {
+  height: 12rem;
+}
+/* belajar tag list */
+.tag {
+  margin: 0 4%;
+}
+
+.judul-list {
+  background-color: #377009;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+}
+
+.tag .ol-ul-dl dd li {
+  margin-left: 2rem;
+}
+/* tag ol */
+.tag-ol {
+  padding: 1rem 2rem 0 2rem;
+}
+
+.type-ol dd li {
+  padding-left: 2rem;
+}
+
+.contoh-ol {
+  margin: 0 13.7%;
+}
+
+.contoh-ol p {
+  text-align: center;
+}
+
+.contoh-ol ol {
+  margin-right: 1rem;
+}
+
+.contoh-type {
+  text-align: center;
+}
+
+.contoh-ol .type-1 {
+  background-color: rgb(24, 24, 73);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+  margin-left: 1rem;
+}
+
+.type-1 li {
+  margin-left: 1.5rem;
+}
+
+.contoh-ol .type-a {
+  background-color: rgb(24, 73, 65);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.type-a li {
+  margin-left: 1.5rem;
+}
+
+.contoh-ol .type-b {
+  background-color: rgb(83, 27, 83);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.type-b li {
+  margin-left: 1.5rem;
+}
+
+.contoh-ol .type-c {
+  background-color: rgb(34, 73, 24);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.type-c li {
+  margin-left: 1.5rem;
+}
+
+.contoh-ol .type-d {
+  background-color: rgb(73, 57, 24);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.type-d li {
+  margin-left: 1.5rem;
+}
+
+.clear-ol {
+  clear: both;
+}
+
+/* contoh ul */
+.ct-ul {
+  text-align: center;
+}
+
+.contoh-ul {
+  margin: 0 27.8%;
+}
+
+.contoh-ul .disc {
+  background-color: rgb(24, 73, 65);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.contoh-ul .square {
+  background-color: rgb(73, 57, 24);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.contoh-ul .circle {
+  background-color: rgb(83, 27, 83);
+  width: 10rem;
+  height: 6rem;
+  float: left;
+}
+
+.contoh-ul p {
+  text-align: center;
+}
+
+.contoh-ul li {
+  margin-left: 1.5rem;
+}
+
+.clear-ul {
+  clear: left;
+}
+
+.contoh-ul ul {
+  margin-left: 1rem;
+}
+
+/* belajar hyperlink */
 .hyperlink {
-  background-color: rgb(255, 102, 0);
-  display: inline;
+  margin: 2rem 4% 0 4%;
 }
 
-.link1,
-.link2,
+.hyperlink-judul {
+  background-color: #377009;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+}
+
+.hyperlink .link2,
 .link3 {
-  width: 15rem;
-}
-
-/* image */
-.image {
-  background-color: rgb(255, 102, 0);
-  display: inline;
-}
-
-.img {
   width: 10rem;
 }
 
-.img1 {
-  width: 15rem;
+/* belajar image */
+.image {
+  margin: 2rem 4% 0 4%;
 }
-
-.img2 {
-  width: 15rem;
-}
-
-/* tabel */
-.table {
-  background-color: rgb(255, 102, 0);
+.image .image-judul {
+  background-color: #377009;
   display: inline-block;
-}
-.tabel1 {
-  width: 15rem;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
 }
 
+.image .img {
+  width: 10rem;
+}
+
+.image .img1,
+.img2 {
+  width: 10rem;
+}
+
+/* beljar table */
+.table {
+  margin: 2rem 4% 0 4%;
+}
+
+.table-judul {
+  background-color: #377009;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+}
+
+.table dl dd li {
+  margin-left: 2rem;
+}
+
+.table .tabel1,
 .tabel2 {
+  width: 10rem;
+}
+
+.table .tabel3,
+.tabel4 {
   width: 15rem;
 }
 
-.tabel3 {
-  width: 15rem;
+.table .tabel5 {
+  width: 18rem;
 }
-.tabel4,
-.tabel5,
+.contoh-s .ctabel-simpel {
+  border: 1px solid rgb(58, 51, 51);
+}
+
+.contoh-s .k1 {
+  border: 1px solid rgb(53, 46, 46);
+  padding: 0.5rem 1rem;
+}
+
 .kompleks,
 .kompleks1 {
-  width: 18rem;
+  width: 17rem;
+}
+/* belajar form */
+.form {
+  margin: 2rem 4% 0 4%;
 }
 
-/* form */
-.forms {
-  background-color: rgb(255, 102, 0);
-  display: inline;
+.form .form-judul {
+  background-color: #377009;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
 }
-.form {
-  width: 15rem;
+
+.form dd li {
+  margin-left: 2rem;
 }
-.forminput,
-.formselect {
-  width: 18rem;
+.form .form-img,
+.form-input,
+.form-select {
+  width: 10rem;
+}
+
+.judul-input,
+.textarea-judul,
+.select-judul {
+  margin-top: 2rem;
+}
+
+.form h4,
+.clt-form,
+.fdl {
+  margin-top: 1rem;
+}
+
+/* footer */
+.footer {
+  background-color: #fd950d;
+  text-align: center;
+  margin-top: 2rem;
+  height: 6rem;
+}
+
+.footer .social {
+  padding-top: 0.5rem;
+}
+
+.footer .social a {
+  padding: 1rem 1rem;
+  color: #eaeaea;
+}
+
+.footer .social a:hover {
+  color: #377009;
+}
+
+.footer .links {
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.footer .links a {
+  padding: 1rem 1rem;
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+.footer .links a:hover {
+  color: #377009;
+}
+
+.footer .credit {
+  padding-top: 1rem;
+  font-size: 0.7rem;
+}
+
+.footer a {
+  color: rgb(43, 38, 38);
+  font-weight: bold;
+}
+
+/* media quary */
+@media (max-width: 768px) {
+  html {
+    font-size: 80.5%;
+  }
+
+  .contoh-ol {
+    margin: 0 0%;
+  }
+
+  .contoh-ol .type-c {
+    margin: 2rem 1rem 0 6.5rem;
+  }
+
+  .contoh-ol .type-d {
+    margin-top: 2rem;
+  }
+
+  .contoh-ul {
+    margin: 0 0.2%;
+  }
 }
